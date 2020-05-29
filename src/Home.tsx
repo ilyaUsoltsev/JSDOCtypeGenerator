@@ -9,11 +9,11 @@ export default class HomeComponent extends Component {
 
   view = (state) => (
     <div style={{ width: "100vw" }}>
-      <h1>Paste JSON to get JSDOC types</h1>
+      <h1>Generate JSDOC types</h1>
       <div className="row">
         <div className="col-4">
           <form onsubmit={(e) => this.run("process", e)}>
-            <label htmlFor="json">Your object</label>
+            <label htmlFor="">Your input in JSON format</label>
             <textarea
               style={{ width: "100%" }}
               name="json"
