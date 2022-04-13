@@ -1,4 +1,6 @@
-# app for generating  jsdoc types from javascript entities
+# App for generating  JSDOC types from JSON
+
+https://ilyausoltsev.github.io/JSDOCtypeGenerator/
 
 * Use _npm start_ to start the dev server
 * Use _npm test_ to run unit tests
